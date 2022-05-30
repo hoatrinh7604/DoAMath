@@ -24,5 +24,6 @@ public class ButtonNumberController : MonoBehaviour
     public void OnPressButton()
     {
         GamePlayController.Instance.OnPressHandle(value);
+        button.interactable = false;
     }
 }
